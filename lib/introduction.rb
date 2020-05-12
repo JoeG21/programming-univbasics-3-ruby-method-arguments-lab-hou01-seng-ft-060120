@@ -1,6 +1,7 @@
 def introduction name
   puts "Hi, n=mu nmae is #{name}."
 
+introduction ("Joe")
 
 
 
