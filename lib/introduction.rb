@@ -1,16 +1,20 @@
 def introduction name
   puts "Hi, n=mu nmae is #{name}."
+end
 
 introduction ("Joe")
 
 def introduction_with_language (name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}"
+end
 
 introduction_with_language
 
+def introduction_with_language_optional (name, language = "Ruby")
+  puts 
+end
 
-
-
+introduction_with_language_optional
 
 
 
